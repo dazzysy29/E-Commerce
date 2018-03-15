@@ -46,7 +46,7 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-app.use('/', (req, res)=>{
+app.get('/', (req, res)=>{
 	res.send('Hello world');
 });
 
