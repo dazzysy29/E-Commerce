@@ -14,6 +14,7 @@ let tokens = require('./routes/tokens');
 let shoppingCartItems = require('./routes/shoppingCartItem');
 
 let app = express();
+let port = process.env.PORT || 3000;
 
 //set Cross-origin resource sharing enabled
 app.use(cors());
@@ -56,5 +57,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(3000);
+app.listen(port);
 module.exports = app;
