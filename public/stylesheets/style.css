@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif; !important;
+  zoom: 1.075;
+  min-width:700px;
+}
+
+/*Avatar part*/
+.avatarBlock {
+  position: relative;
+  max-width: 130px;
+  max-height: 130px;
+  top: 75px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+img.avatar {
+  width: 130px;
+  height: 130px;
+}
+hr.style1 {
+  height: 70px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+/*Button*/
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  margin: auto auto;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 90px;
+  height: 90px;
+  font-size: 30px;
+  line-height: 1.33;
+  border-radius: 45px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+.btn-flat {
+  filter:progid:DXImageTransform.Microsoft.Gradient(enabled=false);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-image:none;
+  border:0;
+}
+
+/*The part on the right of side navbar*/
+.right-side-part{
+  margin-left: 272px;
+  height: 100%;
+  left: 272px;
+  z-index:0;
+}
+
+/*Top navbar*/
+.top-navbar{
+  border: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+}
+
+/*Left side navbar*/
+.side-navbar{
+  width: 272px;
+  height: 100%;
+  top:0;
+  left:0;
+  background-color: #f8f8f8;
+  position: fixed;
+  overflow-x: hidden;
+  z-index:1;
+  border: 1px solid #e7e7e7;
+  overflow: hidden;
+}
+.navsets {
+  list-style-type: none;
+}
+.navsets>li {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  border-bottom: 1px solid #e7e7e7;
+  padding-left: 5%;
+}
+.navsets>li:hover {
+  background-color: #edeeef;
+}
+.navsets>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  color: #337ab7;
+  text-decoration: none;
+}
+.navets>li>a.active{
+  background-color: #eeeeee;
+}
+.navsets>li>a>span.options{
+  margin-left:3%
+}
+
+/*The content of right part*/
+.content {
+}
+
+/*Newest Most Rated and Most viewed*/
+.one-products-row {
+  margin-top: 60px;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.products-header {
+  padding-bottom: 9px;
+  margin: 20px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+/*Product card*/
+.productCard {
+  height: 540px;
+  width: 421px;
+  margin: 20px 40px;
+  zoom: 0.7;
+  float: left;
+  /*border: 1px solid #eee;*/
+}
+.productInfo {
+  text-align:center;
+  padding: 50px 20px 10px;
+  height: 250px;
+  width: 400px;
+  border: 1px solid #e7e7e7;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.product-card-category {
+  margin: 0 auto;
+}
+.product-card-name {
+  margin-top: 20px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #eee;
+}
+.product-card-price {
+  margin-top: 28px;
+  margin-left: 35px;
+  float: left;
+}
+.product-card-rating {
+  margin-top: 23px;
+  margin-right: 20px;
+  float: right
+}
+.cardImage {
+  height: 302px;
+  width: 420px;
+  position: relative;
+  top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: box-shadow 0.5s;
+}
+.cardImage:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/****** Style Star Rating Widget *****/
+.rating {
+  border: none;
+  float: left;
+  margin-top: -4px;
+}
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 3px;
+  font-size: 1.75em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+.rating > .full:before {
+  text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+}
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+
+}
+.rating > label {
+  color: #ddd;
+  float: right;
+}
+/***** CSS Magic to Highlight Stars on Hover *****/
+.rating > input:checked ~ label.disabledRating,
+.rating > input:checked ~ label.ableRating, /* show gold star when clicked */
+.rating:not(:checked) > label.ableRating:hover, /* hover current star */
+.rating:not(:checked) > label.ableRating:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label.ableRating:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label.ableRating:hover,
+.rating > label:hover ~ input:checked ~ label.ableRating, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label.ableRating { color: #FFED85;  }
+
+
+
+/*Footer*/
+.footer {
+  width: 100%;
+  height: 100px;
+}

@@ -1,0 +1,24 @@
+doctype html
+html(ng-app='Controllers')
+  head
+    //main css
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    //Jquery
+    script(src='https://code.jquery.com/jquery-3.2.1.js')
+    //BootStrap
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.css')
+    script(src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js')
+    script(src='/bootstrap/js/bootstrap.js')
+    //Font awesome
+    link(rel='stylesheet', href='/stylesheets/font-awesome.css')
+    //RobotoFont
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
+    //AngularJs
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js')
+    //Angular Controllers
+    script(src='javascripts/Controllers.js')
+
+  body
+    block content
