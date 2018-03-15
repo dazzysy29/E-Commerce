@@ -32,7 +32,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use('/', index);
+
 app.use('/api/categories', categories);
 app.use('/api/users', users);
 app.use('/api/products', products);
@@ -44,6 +44,10 @@ app.use(function(req, res, next) {
   let err = new Error('Not Found');
   err.status = 404;
   next(err);
+});
+
+app.use('/', (req, res)=>{
+	res.send('Hello world');
 });
 
 // error handler
