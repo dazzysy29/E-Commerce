@@ -168,20 +168,22 @@ router.put('/:id/ShoppingCart', (req, res) => {
                     shoppingCartItem.destroy({
                         where: { 'ShoppingCartId': shoppingCartId }
                     }).then(result => {
-                        for (let index in shoppingCartItems) {
-                            shoppingCartItem.create({
-                                'Quantity': shoppingCartItems[index].Quantity,
-                                'ShoppingCartId': shoppingCartId,
-                                'Productsid': shoppingCartItems[index].product.Id
-                            }).then(() => {
-                                console.log(123);
-                                if (index == shoppingCartItems.length - 1) {
-                                    console.log(321);
-                                    res.json({ success: true });
-                                }
-                            }, err => {
-                                throw err;
-                            });
+                        if(shoppingCartItems.length === 0){
+                            res.json({ success: true });
+                        } else {
+                            for (let index in shoppingCartItems) {
+                                shoppingCartItem.create({
+                                    'Quantity': shoppingCartItems[index].Quantity,
+                                    'ShoppingCartId': shoppingCartId,
+                                    'Productsid': shoppingCartItems[index].product.Id
+                                }).then(() => {
+                                    if (index == shoppingCartItems.length - 1) {
+                                        res.json({ success: true });
+                                    }
+                                }, err => {
+                                    throw err;
+                                });
+                            }
                         }
                     });
                 }, err => {

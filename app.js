@@ -31,23 +31,21 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-
 app.use('/api/categories', categories);
 app.use('/api/users', users);
 app.use('/api/products', products);
 app.use('/api/tokens', tokens);
 app.use('/api/shoppingCartItems', shoppingCartItems);
 
+app.get('/', (req, res)=>{
+	res.send('Hello world');
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   let err = new Error('Not Found');
   err.status = 404;
   next(err);
-});
-
-app.get('/', (req, res)=>{
-	res.send('Hello world');
 });
 
 // error handler
@@ -62,4 +60,6 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(port);
+console.log("Port:" + port);
+
 module.exports = app;
