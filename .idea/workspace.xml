@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d521e5f-ca8f-43a5-befa-e14248014b32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/partials/Index2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,18 +20,58 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+            <state relative-caret-position="222">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocalDBConn.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/LocalDBConn.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoppingCart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/shoppingCart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shoppingCartItem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/shoppingCartItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1176">
+              <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="162" column="34" lean-forward="true" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+              <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -104,11 +143,11 @@
         <option value="$PROJECT_DIR$/models/JWT.js" />
         <option value="$PROJECT_DIR$/routes/tokens.js" />
         <option value="$PROJECT_DIR$/routes/products.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/shoppingCartItem.js" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/public/partials/Index2.html" />
         <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -131,8 +170,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1560" />
-    <option name="y" value="4" />
+    <option name="x" value="390" />
+    <option name="y" value="2" />
     <option name="width" value="1608" />
     <option name="height" value="874" />
   </component>
@@ -171,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,13 +220,12 @@
             <path>
               <item name="E-Commerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-Commerce" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="E-Commerce" type="b2602c69:ProjectViewProjectNode" />
               <item name="E-Commerce" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="E-Commerce" type="b2602c69:ProjectViewProjectNode" />
@@ -199,6 +236,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -388,11 +426,15 @@
       <workItem from="1516818700971" duration="597000" />
       <workItem from="1520500061432" duration="898000" />
       <workItem from="1521091773885" duration="869000" />
+      <workItem from="1521794728732" duration="223000" />
+      <workItem from="1521843132345" duration="302000" />
+      <workItem from="1521843443492" duration="2963000" />
+      <workItem from="1521847980700" duration="7523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193384000" />
+    <option name="totallyTimeSpent" value="204395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,18 +449,18 @@
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1889664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10399493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294036" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10336081" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26837724" sideWeight="0.50253487" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26778242" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35564855" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294036" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23717059" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23709902" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -442,7 +484,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="db://[Connection] TABLE - onlineshoppingdb.users" />
     <entry file="file://$PROJECT_DIR$/node_modules/jade/jade.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -491,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/LocalDBConn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -537,13 +571,6 @@
     <entry file="db://[Connection] TABLE - onlineshoppingdb.invalidtoken" />
     <entry file="db://[Connection] TABLE - onlineshoppingdb.invalidtoken" />
     <entry file="db://[Connection] TABLE - onlineshoppingdb.invalidtoken" />
-    <entry file="file://$PROJECT_DIR$/models/shoppingCart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/categories.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="611">
@@ -597,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,15 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,32 +645,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="44" column="21" lean-forward="false" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/shoppingCartItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/shoppingCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/shoppingCartItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="162" column="34" lean-forward="true" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/webStormWorkplace/E-Commerce">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js#Buffer#13;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Auth.js#Crypto#43;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/BufferList.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Auth#112;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Packets#74;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Sequence#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/ChangeUser.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComPingPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/Connection.js#ConnectionConfig#166;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#Crypto#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#Events#46;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#Net#88;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#Protocol#220;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#Query#331;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#SqlString#275;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#Util#393;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Connection.js#tls#127;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js#Charsets#110;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/ConnectionConfig.js#ClientConstants#48;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/ConnectionConfig.js#ssl_profiles.js#4823;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/ConnectionConfig.js#urlParse#22;</node>
+            <node x="" y="">$PROJECT_DIR$/public/javascripts/Controllers.js#Controllers#69;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EmptyPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EofPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ErrorPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js#Types#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js#Auth#133;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Handshake.js#ClientConstants#175;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Handshake.js#Packets#88;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Handshake.js#Sequence#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Handshake.js#Util#49;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js#Client#4;</node>
+            <node x="" y="">$PROJECT_DIR$/public/partials/HomePage.html</node>
+            <node x="" y="">$PROJECT_DIR$/public/partials/Index.html</node>
+            <node x="" y="">$PROJECT_DIR$/models/JWT.js#Token#82;D:/webStormWorkplace/E-Commerce/models/JWT.js#jwt#47;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/lib/JsonWebTokenError.js</node>
+            <node x="" y="">$PROJECT_DIR$/models/LocalDBConn.js#Sequelize#48;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/lib/NotBeforeError.js#JsonWebTokenError#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OkPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketHeader.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js#BigNumber#141;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Parser.js#BufferList#190;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Parser.js#PacketHeader#90;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js#Packets#74;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Ping.js#Sequence#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Ping.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/Pool.js#Connection#41;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Pool.js#EventEmitter#104;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Pool.js#PoolConnection#178;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Pool.js#Util#140;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/Pool.js#mysql#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolCluster.js#EventEmitter#236;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolCluster.js#Pool#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolCluster.js#PoolConfig#43;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolCluster.js#PoolNamespace#88;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolCluster.js#PoolSelector#136;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolCluster.js#Util#183;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js#ConnectionConfig#5;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolConnection.js#Connection#47;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolConnection.js#Events#89;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolConnection.js#inherits#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolNamespace.js#Connection#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/PoolNamespace.js#PoolSelector#48;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/PoolSelector.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js#PacketWriter#247;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Protocol.js#Packets#87;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Protocol.js#Parser#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Protocol.js#Sequences#44;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Protocol.js#Stream#181;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Protocol.js#Timers#128;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/Protocol.js#Util#211;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js#Packets#82;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Query.js#Readable#260;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Query.js#ResultSet#124;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Query.js#Sequence#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Query.js#ServerStatus#168;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Query.js#Util#46;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Query.js#fs#226;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js#Packets#74;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Quit.js#Sequence#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Quit.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/ResultSet.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js#Charsets#70;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/packets/RowDataPacket.js#Field#139;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/packets/RowDataPacket.js#Types#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js#ClientConstants#154;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js#ErrorConstants#139;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Sequence.js#EventEmitter#59;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Sequence.js#Packets#95;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Sequence.js#Util#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js#sqlstring#17;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js#Packets#74;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Statistics.js#Sequence#4;D:/webStormWorkplace/E-Commerce/node_modules/mysql/lib/protocol/sequences/Statistics.js#Util#42;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/lib/TokenExpiredError.js#JsonWebTokenError#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/acorn/dist/acorn.js</node>
+            <node x="" y="">$PROJECT_DIR$/app.js#bodyParser#211;D:/webStormWorkplace/E-Commerce/app.js#categories#376;D:/webStormWorkplace/E-Commerce/app.js#cookieParser#166;D:/webStormWorkplace/E-Commerce/app.js#cors#66;D:/webStormWorkplace/E-Commerce/app.js#express#4;D:/webStormWorkplace/E-Commerce/app.js#favicon#94;D:/webStormWorkplace/E-Commerce/app.js#index#253;D:/webStormWorkplace/E-Commerce/app.js#logger#134;D:/webStormWorkplace/E-Commerce/app.js#path#38;D:/webStormWorkplace/E-Commerce/app.js#products#331;D:/webStormWorkplace/E-Commerce/app.js#shoppingCartItems#466;D:/webStormWorkplace/E-Commerce/app.js#tokens#425;D:/webStormWorkplace/E-Commerce/app.js#users#292;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/application.js#Router#274;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#View#485;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#compileETag#557;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#compileQueryParser#614;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#compileTrust#672;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#debug#432;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#deprecate#709;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#finalhandler#230;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#flatten#753;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#http#515;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#merge#793;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#methods#308;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#middleware#342;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#query#389;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#resolve#839;D:/webStormWorkplace/E-Commerce/node_modules/express/lib/application.js#setPrototypeOf#868;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/array-flatten/array-flatten.js</node>
+            <node x="" y="">$PROJECT_DIR$/models/association/associations.js#category#219;D:/webStormWorkplace/E-Commerce/models/association/associations.js#product#182;D:/webStormWorkplace/E-Commerce/models/association/associations.js#shoppingCart#48;D:/webStormWorkplace/E-Commerce/models/association/associations.js#shoppingCartItem#96;D:/webStormWorkplace/E-Commerce/models/association/associations.js#user#151;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/nodes/attrs.js#Node#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/associations/base.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to-many.js#Association#114;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#BelongsTo#150;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#CounterCache#260;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#HasMany#190;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#HasOne#226;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#Helpers#53;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#Utils#19;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#_#88;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to-many.js#util#315;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to.js#Association#158;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to.js#Helpers#53;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to.js#Transaction#114;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to.js#Utils#19;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to.js#_#88;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/associations/belongs-to.js#util#194;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/nodes/block-comment.js#Node#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/nodes/block.js#Node#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/bluebird/js/release/bluebird.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/browser.js#debug.js#130;</node>
+            <node x="" y="">Buffer;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/nodes/case.js#Node#19;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/categories.js#association#204;D:/webStormWorkplace/E-Commerce/routes/categories.js#category#113;D:/webStormWorkplace/E-Commerce/routes/categories.js#express#48;D:/webStormWorkplace/E-Commerce/routes/categories.js#product#159;</node>
+            <node x="" y="">$PROJECT_DIR$/models/category.js#Sequelize#90;D:/webStormWorkplace/E-Commerce/models/category.js#sequelize#48;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jsonwebtoken/bin/changelog#changelog#25;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/client.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/nodes/code.js#Node#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/nodes/comment.js#Node#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/jade/lib/compiler.js#constantinople#299;D:/webStormWorkplace/E-Commerce/node_modules/jade/lib/compiler.js#doctypes#87;D:/webStormWorkplace/E-Commerce/node_modules/jade/lib/compiler.js#filters#51;D:/webStormWorkplace/E-Commerce/node_modules/jade/lib/compiler.js#nodes#19;D:/webStormWorkplace/E-Commerce/node_modules/jade/lib/compiler.js#parseJSExpression#257;D:/webStormWorkplace/E-Commerce/node_modules/jade/lib/compiler.js#runtime#125;D:/webStormWorkplace/E-Commerce/node_modules/jade/lib/compiler.js#selfClosing#193;D:/webStormWorkplace/E-Commerce/node_modules/jade/lib/compiler.js#utils#161;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#AbstractConnectionManager#19;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#Promise#196;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#ResourceLock#115;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#Utils#161;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#_#334;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#parserStore#281;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#sequelizeErrors#235;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mssql/connection-manager.js#tedious#590;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/connection-manager.js#AbstractConnectionManager#19;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mysql/connection-manager.js#Promise#150;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mysql/connection-manager.js#Utils#115;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mysql/connection-manager.js#dataTypes#247;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mysql/connection-manager.js#index.js#657;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mysql/connection-manager.js#sequelize.config.dialectModulePath#582;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/mysql/connection-manager.js#sequelizeErrors#189;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js#AbstractConnectionManager#19;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js#Promise#150;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js#Utils#115;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js#dataTypes#201;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js#parserStore#286;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js#sequelizeErrors#240;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js#verbose#777;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/connection-manager.js#Pooling#19;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/abstract/connection-manager.js#Promise#57;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/abstract/connection-manager.js#_#96;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/abstract/connection-manager.js#semver#122;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#AbstractConnectionManager#19;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#Promise#150;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#Utils#115;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#dataTypes#266;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#moment#310;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#pg#712;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#semver#235;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#sequelize.config.dialectModulePath#640;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/dialects/postgres/connection-manager.js#sequelizeErrors#189;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/sequelize/lib/plugins/counter-cache.js#DataTypes#102;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/plugins/counter-cache.js#Helpers#53;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/plugins/counter-cache.js#Promise#143;D:/webStormWorkplace/E-Commerce/node_modules/sequelize/lib/plugins/counter-cache.js#Utils#19;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.08247837457252062" x="2795.881707317072" y="2455.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/LocalDBConn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
